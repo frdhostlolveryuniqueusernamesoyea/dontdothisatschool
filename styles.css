@@ -33,6 +33,13 @@
     font-size: 2rem;
   }
 
+  .header-right {
+    color: white;
+    justify-content: right;
+    text-align: right;
+    font-size: 1rem;
+  }
+
   /* Main Content */
   main {
     padding: 20px;
