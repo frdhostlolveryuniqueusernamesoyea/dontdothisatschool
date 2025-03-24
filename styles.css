@@ -14,6 +14,32 @@
     --text-color: #212529;
     --border-radius: 8px;
   }
+
+  /* Full-Page Setup */
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  header {
+    height: 50vh; /* Takes half of the viewport height */
+    background: linear-gradient(135deg, #4A90E2, #9013FE);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
   
   body {
     background-color: var(--background-color);
@@ -25,16 +51,6 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-  }
-  
-  /* Header Styles */
-  header {
-    background: var(--primary-color);
-    color: white;
-    padding: 15px;
-    text-align: center;
-    font-size: 1.5rem;
-    border-radius: var(--border-radius);
   }
   
   /* Button Styles */
