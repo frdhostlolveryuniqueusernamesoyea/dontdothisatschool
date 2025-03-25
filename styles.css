@@ -51,11 +51,13 @@
   }
 
   .header-spacing::before {
-    width: fit-content;
-    color: transparent;
+    content: "    "; /* Adds spaces before the content */
+    color: transparent; /* Makes the inserted content transparent */
     font-size: 2rem;
-    content: "    ";
-  }
+    display: inline-block; /* Ensures the content is treated as a block for layout */
+    width: 0; /* Ensure no visible width, but space will still be added */
+}
+
 
   /* Main Content */
   main {
