@@ -90,7 +90,7 @@
   
   .button:hover {
     background: darkblue;
-    transform: scale(1.5), rotate(15deg);
+    transform: scale(1.5) rotate(15deg);
   }
   
   /* Card Styles */
