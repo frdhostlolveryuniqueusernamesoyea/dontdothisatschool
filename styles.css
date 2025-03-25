@@ -22,7 +22,7 @@
   }
 
   /* Header */
-  header {
+  .heder {
     width: 49vw; /* Each section takes half of the viewport width */
     height: 50vh; /* Takes half of the viewport height */
     background: linear-gradient(135deg, #4A90E2, #9013FE);
