@@ -22,12 +22,18 @@
   }
 
   /* Header */
-  .heder {
-    width: 49vw; /* Each section takes half of the viewport width */
+  header {
     height: 50vh; /* Takes half of the viewport height */
     background: linear-gradient(135deg, #4A90E2, #9013FE);
     color: white;
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-left {
+    width: 50%;
+    color: white;
+    display: inline;
     align-items: center;
     justify-content: left;
     text-align: left;
@@ -35,11 +41,9 @@
   }
 
   .header-right {
-    width: 49vw; /* Each section takes half of the viewport width */
-    height: 50vh; /* Takes half of the viewport height */
-    background: linear-gradient(135deg, #4A90E2, #9013FE);
+    width: 50%;
     color: white;
-    display: inline-flex;
+    display: inline;
     align-items: center;
     justify-content: right;
     text-align: right;
