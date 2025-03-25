@@ -50,7 +50,7 @@
     font-size: 1rem;
   }
 
-  .header-spacing {
+  .header-spacing::before {
     width: fit-content;
     color: transparent;
     font-size: 2rem;
