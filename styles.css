@@ -50,14 +50,9 @@
     font-size: 1rem;
   }
 
-  .header-spacing::before {
-    content: "    "; /* Adds spaces before the content */
-    color: transparent; /* Makes the inserted content transparent */
-    font-size: 2rem;
-    display: inline-block; /* Ensures the content is treated as a block for layout */
-    width: 0; /* Ensure no visible width, but space will still be added */
-}
-
+  .header-spacing {
+    margin-right: 20px; /* Adds invisible space to the right */
+  }
 
   /* Main Content */
   main {
